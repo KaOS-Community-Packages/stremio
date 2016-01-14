@@ -8,8 +8,8 @@ depends=('gconf' 'ffmpeg')
 license=('custom')
 install=stremio.install
 source=("https://strem.io/Stremio${pkgver}.linux.tar.gz"
-        "https://strem.io/favicon-32x32.png"
-        "https://strem.io/favicon-96x96.png"
+        "favicon-32x32.png::http://i.imgur.com/8rYxdKN.png"
+        "favicon-96x96.png::http://i.imgur.com/9QZHQbn.png"
         "stremio.desktop")
 md5sums=('abcd6ff712b279ad8b51b8148a85e1f2'
          'SKIP'
