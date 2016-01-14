@@ -8,9 +8,11 @@ depends=('gconf' 'ffmpeg')
 license=('custom')
 install=stremio.install
 source=("https://strem.io/Stremio${pkgver}.linux.tar.gz"
+        "favicon-32x32.png::http://i.imgur.com/8rYxdKN.png"
         "https://strem.io/favicon-96x96.png"
         "stremio.desktop")
 md5sums=('abcd6ff712b279ad8b51b8148a85e1f2'
+         'SKIP'
          'SKIP'
          '1824da5ef113f63f2e414510fb8c43e3')
 
@@ -20,7 +22,7 @@ prepare() {
 
 package() {
   install -Dm644 stremio.desktop "$pkgdir/usr/share/applications/stremio.desktop"
-#  install -Dm644 favicon-32x32.png "$pkgdir/usr/share/icons/hicolor/32x32/apps/stremio.png"
+  install -Dm644 favicon-32x32.png "$pkgdir/usr/share/icons/hicolor/32x32/apps/stremio.png"
   install -Dm644 favicon-96x96.png "$pkgdir/usr/share/icons/hicolor/96x96/apps/stremio.png"
 
   install -Dm644 LICENSE "$pkgdir/usr/share/licenses/stremio/LICENSE"
