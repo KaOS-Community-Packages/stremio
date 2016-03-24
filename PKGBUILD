@@ -1,5 +1,5 @@
 pkgname=stremio
-pkgver=3.5.7
+pkgver=3.5.9
 pkgrel=1
 pkgdesc="Watch instantly All The Video Content You Enjoy in One Place"
 arch=('x86_64')
@@ -11,8 +11,8 @@ source=("https://strem.io/Stremio${pkgver}.linux.tar.gz"
         "stremio-32x32.png"
         "stremio-96x96.png"
         "stremio.desktop")
-md5sums=('43fe6026ecb31056ec6a8711ee3a88d7'
-         'a4d83eea24c9bb5bdef14b4aab6dd415'
+md5sums=('15f2bc9b1099af41920bec49b8bad88f'
+         '45fb8ede7938c41df4dd52bded7aa018'
          'e3b38592637449733618d73b45293b09'
          '1824da5ef113f63f2e414510fb8c43e3')
 
