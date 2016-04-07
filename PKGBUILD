@@ -1,5 +1,5 @@
 pkgname=stremio
-pkgver=3.5.9
+pkgver=3.5.7
 pkgrel=1
 pkgdesc="Watch instantly All The Video Content You Enjoy in One Place"
 arch=('x86_64')
